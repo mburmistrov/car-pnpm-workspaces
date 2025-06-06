@@ -9,7 +9,7 @@
     </CarHeader>
 
     <main class="main-content">
-      <h2>My Vehicle Information</h2>
+      <h2>My Vehicle Info</h2>
 
       <CarCard title="Current Vehicle">
         <div class="vehicle-info">
