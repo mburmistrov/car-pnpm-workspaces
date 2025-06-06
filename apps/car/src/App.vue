@@ -21,7 +21,7 @@
 
           <template #footer>
             <CarButton @click="viewDetails(car)">View Details</CarButton>
-            <CarButton variant="secondary" @click="testDrive(car)">Test Drive</CarButton>
+            <CarButton variant="secondary" @click="testDrive(car)">Testing Drive</CarButton>
           </template>
         </CarCard>
       </div>
