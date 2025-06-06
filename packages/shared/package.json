@@ -1,0 +1,18 @@
+{
+  "name": "@workspace/shared",
+  "version": "1.0.0",
+  "description": "Shared Vue 3 components",
+  "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./index.js"
+    },
+    "./components/*": {
+      "import": "./components/*.vue"
+    }
+  },
+  "peerDependencies": {
+    "vue": "^3.3.4"
+  }
+}

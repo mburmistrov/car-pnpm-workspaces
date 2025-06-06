@@ -1,0 +1,19 @@
+{
+  "name": "my-car-app",
+  "version": "1.0.0",
+  "description": "My Car Vue 3 application",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3002",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "@workspace/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.4.0",
+    "vite": "^4.4.9"
+  }
+}
